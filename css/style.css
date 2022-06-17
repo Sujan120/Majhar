@@ -1,0 +1,548 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* header */
+
+header{
+  background-color:#87509c;
+  padding-top: 20px;
+}
+
+.nav-link{
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.fa-bars{
+  color: #fff;
+  font-size: 30px;
+}
+/* end header */
+
+
+
+/* topinfo */
+
+.common{
+  background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.226) 0%, rgba(135, 80, 156, 0.336) 100%),url("../images/car1.jpg");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 140px;
+}
+
+.common h1{
+  padding-top: 150px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.common button{
+  background-color: #eb7d4b;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 25px 70px;
+  margin-top: 60px;
+  border-radius: 6px;
+}
+
+
+.slide2{
+  background-image: linear-gradient(90deg, rgba(2,0,36,.2) 0%, rgba(135,80,156,1) 100%), url("../images/car2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.slide3{
+  background-image: linear-gradient(90deg, rgba(2,0,36,.2) 0%, rgba(135,80,156,1) 100%), url("../images/car3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* end of topinfo */
+
+
+
+
+/* service */
+.services{
+  background-color: #17c2a4;
+  margin-top:-25px;
+  text-align: center;
+  padding:100px 0 ;
+}
+
+.services h1{
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.services p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.service-info{
+  padding-top: 75px;
+}
+
+.branding img{
+  padding-bottom: 50px;
+}
+
+.branding h3{
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.branding h5{
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+
+/* end of service */
+
+
+
+
+/* team */
+
+.team{
+  background-color: #e7f1f8;
+  padding: 100px 0;
+}
+.team-head{
+  text-align: center;
+}
+
+.team-head h2{
+  font-weight: 700;
+  font-size: 41px;
+  color: #3c4761;
+}
+
+.team-head p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #3c4761;
+}
+
+.member-info{
+  padding-top: 70px;
+}
+
+.team-member{
+  text-align: center;
+}
+
+.team-member img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.team-member h1{
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #27283d;
+}
+
+.team-member h3{
+  font-weight: 600;
+  font-size: 16px;
+  color: #30bae7;
+}
+
+.team-member p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #3c4761;
+}
+
+.social i{
+  margin-right: 10px;
+  color: #51c8ff;
+  font-size: 30px;
+  cursor: pointer;
+}
+/* end of team */
+
+
+
+
+
+
+
+
+
+
+/* skill */
+.skill{
+  padding: 110px 0;
+}
+
+.skill-info{
+  text-align: center;
+}
+
+.skill-info h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #3c4761;
+}
+
+.skill-info p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #3c4761;
+}
+
+.skill-progress{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.percent1 h3, .percent2 h3, .percent3 h3, .percent4 h3{
+  font-size: 24px;
+  font-weight: 700;
+  cursor: #3c4761;
+}
+/* end of skill */
+
+
+
+
+
+
+
+
+/* portfolio */
+.portfolio{
+  background-color: #ffdd99;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.portfolio-info{
+  text-align: center;
+}
+
+.portfolio-info h1{
+  font-weight: 700;
+  font-size: 40px;
+  color: #393939;
+}
+
+.portfolio-info p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #393939;
+}
+
+.tab{
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+
+.com-btn{
+  background-color: #ebc985;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+}
+
+.p-card{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.p-card p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #393939;
+  padding-top: 25px;
+}
+
+.bottom-btn{
+  display: inline-block;
+  background-color: #17c2a4;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 20px 50px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.678);
+}
+
+/* end of portfolio */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about us */
+.about-us{
+  background-color: #d74680;
+  padding: 100px 0;
+}
+
+.aboutus-info{
+  text-align: center;
+}
+
+.aboutus-info h1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.aboutus-info p{
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.review-pic{
+  padding-top: 30px;
+  text-align: right;
+}
+
+.review-pic img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.review-details p{
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+
+.review-details h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+}
+
+
+.review-details h3{
+  color: #ffdd99;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+/* end of about us */
+
+
+
+
+
+
+
+
+/* contact */
+.contact{
+  padding: 100px 0;
+  background-color: #3c5499;
+}
+
+.contact-info{
+  text-align: center;
+}
+
+.contact-info h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  word-spacing: 10px;
+  letter-spacing: 8px;
+}
+
+.contact-info p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+input, textarea{
+  background-color: #273a71!important;
+  border: none!important;
+}
+
+
+
+input{
+  margin-top: 15px;
+}
+
+
+.area{
+  padding-top: 20px;
+}
+
+.submit{
+  text-align: center;
+  padding-top: 25px;
+}
+
+.submit button{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background-color: #30bae7;
+  padding: 15px 90px;
+  border-radius: 6px;
+}
+/* end of contact */
+
+
+
+
+/* footer */
+.footer{
+  padding: 30px 0;
+  background-color: #344b8e;
+}
+
+.footer-option{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-option h3{
+  font-size: 24px;
+  font-weight: 500px;
+  color: #fff;
+}
+/* end of footer */
+
+
+
+
+/* scroll top js */
+.scrollup {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  padding: 10px;
+  z-index: 100;
+  display: none;
+  background-color: #0dffd3;
+}
+/* scroll top js end */
+
+
+
+/* media queryes */
+
+@media only screen and (max-width: 1000px) {
+  .percent1, .percent2, .percent3, .percent4{
+    margin-top: 40px;
+  }
+
+  .team-member{
+   padding-top: 40px;
+  }
+
+  .contact-info p{
+    font-size: 16px;
+  }
+} 
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 575px) {
+
+  .percent1, .percent2, .percent3, .percent4{
+    margin-top: 70px;
+  }
+} 
+
+.services, .team, .portfolio, .about-us, .contact{
+  padding:50px 0 ;
+}
+.skill{
+  padding-top: 50px;
+}
+
+.service-info{
+  padding-top: 30px;
+}
+
+.branding{
+  margin-top: 30px;
+}
+
+.branding img{
+  padding-bottom: 0px;
+}
+
+.branding h3{
+  padding-bottom: 0px;
+}
+
+.member-info, .service-info{
+  padding-top: 0px;
+}
+
+.team-member{
+  margin-top: 30px;
+}
+
+
+
+.footer-option h3{
+  font-size: 13px;
+}
+
+
+
+
+/* mobile */
+
+/* end of media queries */
